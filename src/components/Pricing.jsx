@@ -86,9 +86,6 @@ export default function Pricing() {
                 )}
               />
             </button>
-            <span className={clsx("text-sm font-medium transition-colors", billingCycle === 'yearly' ? 'text-white' : 'text-gray-500')}>
-              Yearly <span className="text-neon text-xs ml-1">(Save 20%)</span>
-            </span>
           </div>
         </div>
       </div>
