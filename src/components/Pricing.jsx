@@ -1,60 +1,7 @@
-import { useState } from 'react';
-import { motion } from 'framer-motion';
 import { Check, X } from 'lucide-react';
-import clsx from 'clsx';
 
-const plans = [
-  {
-    name: 'Starter',
-    price: { monthly: 0, yearly: 0 },
-    description: 'Perfect for hobbyists and testing the waters.',
-    features: [
-      '50 Generations / month',
-      'Standard Quality Mesh',
-      'Personal License',
-      'Community Support',
-      'Public Showcase',
-    ],
-    missing: ['Commercial License', 'High-res Textures', 'API Access'],
-    cta: 'Start for Free',
-    popular: false,
-  },
-  {
-    name: 'Pro',
-    price: { monthly: 29, yearly: 290 },
-    description: 'For professional creators and indie developers.',
-    features: [
-      'Unlimited Generations',
-      'High Quality Quad Mesh',
-      'Commercial License',
-      '4K PBR Textures',
-      'private_LoRA training',
-      'Priority Support',
-    ],
-    missing: ['API Access'],
-    cta: 'Get Pro',
-    popular: true,
-  },
-  {
-    name: 'Studio',
-    price: { monthly: 99, yearly: 990 },
-    description: 'For game studios and enterprise teams.',
-    features: [
-      'Everything in Pro',
-      'API Access',
-      'Team Collaboration',
-      'SSO & Advanced Security',
-      'Dedicated Success Manger',
-      'Custom Model Finetuning',
-    ],
-    missing: [],
-    cta: 'Contact Sales',
-    popular: false,
-  },
-];
 
 export default function Pricing() {
-  const [billingCycle, setBillingCycle] = useState('monthly'); // 'monthly' | 'yearly'
 
   return (
     <section id="pricing" className="py-24 bg-dark-bg relative overflow-hidden">
