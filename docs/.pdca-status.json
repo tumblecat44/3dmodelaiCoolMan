@@ -1,0 +1,155 @@
+{
+  "version": "2.0",
+  "lastUpdated": "2026-02-07T03:40:02.051Z",
+  "activeFeatures": [
+    "3dmodelai"
+  ],
+  "primaryFeature": "3dmodelai",
+  "features": {
+    "3dmodelai": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-07T03:33:39.986Z",
+        "lastUpdated": "2026-02-07T03:40:02.051Z"
+      },
+      "lastFile": "/Users/dgsw67/3dmodelai/src/components/Pricing.jsx"
+    }
+  },
+  "pipeline": {
+    "currentPhase": 1,
+    "level": "Dynamic",
+    "phaseHistory": []
+  },
+  "session": {
+    "startedAt": "2026-02-07T03:32:23.890Z",
+    "onboardingCompleted": false,
+    "lastActivity": "2026-02-07T03:40:02.051Z"
+  },
+  "history": [
+    {
+      "timestamp": "2026-02-07T03:33:39.986Z",
+      "feature": "3dmodelai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-07T03:33:40.324Z",
+      "feature": "3dmodelai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-07T03:33:44.089Z",
+      "feature": "3dmodelai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-07T03:36:55.472Z",
+      "feature": "3dmodelai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-07T03:38:19.812Z",
+      "feature": "3dmodelai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-07T03:38:24.564Z",
+      "feature": "3dmodelai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-07T03:38:48.498Z",
+      "feature": "3dmodelai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-07T03:38:50.477Z",
+      "feature": "3dmodelai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-07T03:38:54.220Z",
+      "feature": "3dmodelai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-07T03:38:54.868Z",
+      "feature": "3dmodelai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-07T03:38:55.493Z",
+      "feature": "3dmodelai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-07T03:38:59.137Z",
+      "feature": "3dmodelai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-07T03:39:01.297Z",
+      "feature": "3dmodelai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-07T03:39:01.765Z",
+      "feature": "3dmodelai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-07T03:39:03.939Z",
+      "feature": "3dmodelai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-07T03:39:04.255Z",
+      "feature": "3dmodelai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-07T03:39:47.310Z",
+      "feature": "3dmodelai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-07T03:39:47.978Z",
+      "feature": "3dmodelai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-07T03:39:48.413Z",
+      "feature": "3dmodelai",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-07T03:40:02.051Z",
+      "feature": "3dmodelai",
+      "phase": "do",
+      "action": "updated"
+    }
+  ]
+}
