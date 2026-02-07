@@ -70,23 +70,6 @@ export default function Pricing() {
             Choose the perfect plan for your creative needs.
           </p>
 
-          {/* Billing Toggle */}
-          <div className="flex items-center justify-center space-x-4">
-            <span className={clsx("text-sm font-medium transition-colors", billingCycle === 'monthly' ? 'text-white' : 'text-gray-500')}>Monthly</span>
-            <button
-              onClick={() => setBillingCycle(billingCycle === 'monthly' ? 'yearly' : 'monthly')}
-              className="w-14 h-8 bg-white/10 rounded-full p-1 relative transition-colors focus:outline-none focus:ring-2 focus:ring-neon/50"
-            >
-              <motion.div
-                layout
-                transition={{ type: "spring", stiffness: 500, damping: 30 }}
-                className={clsx(
-                  "w-6 h-6 bg-neon rounded-full shadow-md",
-                  billingCycle === 'yearly' ? 'translate-x-6' : 'translate-x-0'
-                )}
-              />
-            </button>
-          </div>
         </div>
       </div>
     </section>
